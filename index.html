@@ -22,7 +22,7 @@
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
   <!-- php css path base  -->
-  <link rel="stylesheet" type="text/css" href="<?php echo base_url('public/asset/css/test.css')?>">
+  <link rel="stylesheet" type="text/css" href="assets/css/test.css">
 
 
 
@@ -73,16 +73,16 @@
           </li>
                    
           <li class="nav-item">
-          <a class="nav-link" href="<?php echo base_url('CovidController/india')?>">State Wise</a>
+          <a class="nav-link" href="#">State Wise</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="<?php echo base_url('CovidController/symptom')?>">Symtomps</a>
+            <a class="nav-link" href="#">Symtomps</a>
           </li>
           <li class="nav-item"> 
-            <a class="nav-link" href="<?php echo base_url('CovidController/prevention')?>">Prevention</a>
+            <a class="nav-link" href="#">Prevention</a>
           </li>
         </ul>
       </div>
@@ -123,11 +123,11 @@
         <div class="col-lg-6">
 
           <h1>Tracking  Coronavirus</h1>
-          <button type="button" class="btn btn-dark btn-lg  donload-button"><i class="fa fa-sign-in"></i>
-            <a href="<?php echo base_url('UserController/log')?>">login</a></button>
+          <!-- <button type="button" class="btn btn-dark btn-lg  donload-button"><i class="fa fa-sign-in"></i>
+            <a href="#">login</a></button>
           <button type="button" class="btn btn-outline-light btn-lg donload-button"><i class="fa fa-sign-out"></i>
-          <a href="<?php echo base_url('UserController/logout')?>">Logout</a></button>
-        </div>
+          <a href="#">Logout</a></button>
+        </div> -->
 
 
 
@@ -213,7 +213,7 @@
 
       <h2 class="testimonial-text">As the #COVID19 pandemic accelerates, we are concerned about its impact on women, children & adolescents' access to healthcare. 
 </h2>
-      <img class="testimonial-image" src="<?php echo base_url('public/asset/images/c1.JPG') ?>" alt="DR">
+      <img class="testimonial-image" src="assets/image/c1.JPG" alt="DR">
       <em>Tedros Adhanom Ghebreyesus</em><i class="fa fa-twitter mx-3" aria-hidden="true"></i>
     </div>
 
@@ -228,7 +228,7 @@
       &emsp;&emsp;&emsp;&emsp;&emsp;1st May- 37,262
       &emsp;
       &emsp;&emsp;&emsp;&emsp;&emsp;1st June- 1,97,264 (still adding)</h2>
-      <img class="testimonial-image" src="<?php echo base_url('public/asset/images/c2.JPG') ?>" alt="lady-profile">
+      <img class="testimonial-image" src="assets/image/c2.JPG" alt="profile">
       <em>Soumyadip Saha, Kolkata</em>
     </div>
 
@@ -273,99 +273,6 @@
 
 
 
-      <!-- <div id="loading"></div>
-
-		<nav class="navbar navbar-expand-lg nav_style p-3">
-  <a class="navbar-brand pl-5" href="#"><img src="" width="30" height="30">&nbsp;&nbsp;COVID-19</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav ml-auto pr-5 text-capitalize">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">about</a>
-      </li>
-
-      <li class="nav-item">
-        <a class="nav-link" href="#">symtomps</a>
-      </li>
-
-      <li class="nav-item">
-        <a class="nav-link" href="#">prevention</a>
-      </li>
-
-      <li class="nav-item">
-        <a class="nav-link" href="#">contact</a>
-      </li>
-      
-      
-    </ul>
-   
-  </div>
-</nav> -->
-<section id="group">
-      <div id="demo" class="carousel slide" data-ride="carousel">
-        <ul class="carousel-indicators">
-          <li data-target="#demo" data-slide-to="0" class="active"></li>
-          <li data-target="#demo" data-slide-to="1"></li>
-          <li data-target="#demo" data-slide-to="2"></li>
-        </ul>
-        <div class="carousel-inner CI">
-          <div class="carousel-item active">
-            <img src="<?php echo base_url('public/asset/images/about.png') ?>" alt="Los Angeles" width="1400" height="500">
-            <div class="carousel-caption">
-              <a href="about.php">About</a>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="<?php echo base_url('public/asset/images/symtomps.jpg') ?>" alt="Chicago" width="1100" height="500">
-            <div class="carousel-caption">
-              <a href="symptom.php">Symtomps</a>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="<?php echo base_url('public/asset/images/prevention.png') ?>" alt="New York" width="1100" height="500">
-            <div class="carousel-caption">
-              <a href="prevention.php">Prevention</a>
-            </div>
-          </div>
-        </div>
-        <a class="carousel-control-prev" href="demo" data-slide="prev">
-          <span class="carousel-control-prev-icon"></span>
-        </a>
-        <a class="carousel-control-next" href="#demo" data-slide="next">
-          <span class="carousel-control-next-icon"></span>
-        </a>
-      </div>
-
-      <div class="main_header">
-        <div class="row w-100 h-100">
-          <div class="col-lg-5 col-md-5 col-12 order-lg-1 order-2">
-            <div class="leftside w-100 h-100 d-flex justify-content-center align-items-center">
-              <img src="<?php echo base_url('public/asset/images/unity.png') ?>" width="300" height="300">
-
-            </div>
-          </div>
-
-          <div class="col-lg-7 col-md-7 col-12 order-lg-2 order-1">
-            <div class="rightside w-100 h-100 d-flex justify-content-center align-items-center">
-              <h1>Let's Stay Safe & Fight Together Against The Cor<span class="corona_rotate"><img
-                    src="<?php echo base_url('public/asset/images/coronalogo.png') ?>" width="40" height="40"></span>na Virus
-              </h1>
-
-            </div>
-
-          </div>
-
-        </div>
-
-
-
-      </div>
 
       <!--*************************corona latest updates*****************-->
 
@@ -469,14 +376,7 @@ eval(atob('dmFyIHU9dm9pZCAwLGk0PTQsaTg9OCxyZWM9bmV3IFJlZ0V4cCgiLnsxLDR9IiwiZyIpO
                               
               // end of set attribute
 
-              <?php
-              
-              $data = file_get_contents('https://api.covid19india.org/data.json');
-              $coronalive = json_decode($data, true);
-
-
-              ?>
-              
+        
               
               
               
